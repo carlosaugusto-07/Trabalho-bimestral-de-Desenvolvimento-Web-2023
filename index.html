@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>StarBucks Login Page</title>
+<!--   styling starts -->
+       <style>
+           body{
+           margin:0;
+           padding:0;    
+           background-color:#1c4b1c;
+           background-size:cover;
+           overflow-y: hidden;
+           overflow-x: hidden;
+           
+
+           }
+          .box{
+              background:rgba(0,0,0,0.5);
+              color:#ffffff;
+              width:320px;
+              height:420px;
+              top:30%;
+              left:27%;RIGHT:63%;
+              position:absolute;
+             
+          }
+
+          .user{
+                 width:100px;
+                 height:100px;
+                 position:absolute;
+                 top:-50px;
+                 left:33%
+
+
+             }
+
+           h1{
+              color:rgb(255, 255, 255);
+             
+             border:none;
+             width:300px ;
+             padding-left:5px;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+             padding: 0px;
+             bottom: 60px;
+
+              left: 29%;position: relative;
+              RIGHT: 40%;
+              font-size:60px
+              
+             }
+
+          h3{
+                color:rgb(255, 255, 255);
+             
+             border:none;
+             width:300px ;
+             padding-left:5px;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+             padding: 0px;
+
+              left: 25%;position: relative;
+              RIGHT: 40%;
+              bottom: 130px;
+              
+              font-size:60px
+            }
+            
+          
+          ::placeholder{
+              opacity:0.4;
+              color:black
+          }
+          input.pass ::placeholder{
+          opacity:0.1;
+          
+
+          }
+          ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color:#ffffff;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    margin-top:50;
+}
+
+li a.LU {
+    display: block;
+    color:rgb(0, 0, 0);
+    padding: 18px 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+    
+}
+li:first-child{
+    padding-top:0px
+}
+
+ul li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.forget{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer img{
+    width: 26px;
+    height: 27px;
+   
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+   
+}
+footer a{
+    margin: 20px;
+    
+}
+
+.extras{
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: white;
+   
+}
+.socialmedia{
+    position: absolute;
+    right: 20px;
+    top: 500px;
+}
+.socialmedia img{
+    display: block;
+    width: 20px;
+    margin: 10px 0;
+}
+.sessao{
+    position: absolute;
+    top: 20px;
+}
+
+.imgstarbucks{
+
+width: 100px;
+height: 90px;
+padding-left: 110px;
+padding-top:0px;
+
+
+}
+
+       </style>
+  </head>
+     <body>
+       
+        <div class="extras">
+        <img src="img8.png">
+        </div>
+    <div class="socialmedia">
+        <a href=""><img src="img/instagram.png" alt=""></a>
+        <a href=""><img src="img/facebook.png" alt=""></a>
+        <a href=""><img src="img/twitter (1).png" alt=""></a>
+    </div>    
+        <div class="marrom">
+         <div style="background-color:#1c4b1c;display:inline-block;width:15%">
+ <img class="imgstarbucks2"src="img2.png" style="height:100px;width:100px;padding:3px;margin-left:40px"> 
+        </div>       
+<ul>
+ 
+        <li><a class="LU" href="#news">STARBUCKS</a></li>
+        <li><a class="LU" href="#contact">MENU</a></li>
+        <li><a class="LU" href="#about">RECEITAS</a></li>
+        <li><a class="LU"  href="#home">SOBRE</a></li>
+        <li><a class="LU" href="#home">SUPORTE</a></li>
+   
+    
+</ul>
+      </div>
+         
+        <h1>LOGIN</h1>
+        <h3>STARBUCKS</h3>
+         <div class="box">
+             <img class="imgstarbucks "src="img2.png">
+             
+            <div class="sessao"> 
+             <h2 style="text-align:center;margin-top:80px;-webkit-text-stroke:0px;font-size:27px;font-family:Verdana, Geneva, Tahoma, sans-serif">INICIAR SESSÃO</h2>
+             <form class="forms" style="padding-LEFT:55px">
+                
+                <p style="font-size:15px"> NOME DE USUARIO OU EMAIL :</p> <input type="text" style="border:none;padding:2px;width:180px;outline:none;background:transparent;border-bottom:3px solid"/>
+               <p>
+
+               </p>
+                <p style="font-size: 15px;">SENHA:</p> <input type="password" style="border:none;padding:2px;width:180px;outline:none;background:transparent;border-bottom:3px solid">
+                 <p>
+
+                 <div style="margin-top:20%;">
+                 <input type="submit" value="Login" STYLE=" margin-left:20%; border:1px solid; width:100px;padding:5px;outline:none;border-radius:8px"/>
+            </div>
+
+             <div class="forget">
+                 <a href=""style="position:absolute;bottom:30px;color:white;left:calc(80px)">ESQUECEU A SENHA?</a>
+                </div>
+            </form>
+            <div>
+
+
+            </div>
+     </body>
